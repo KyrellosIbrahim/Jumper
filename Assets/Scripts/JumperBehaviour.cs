@@ -81,4 +81,9 @@ public class JumperBehaviour : MonoBehaviour
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
     }
+
+    public void increaseJumpHeight(float heightIncrease) { // use in pickup for power-up script
+        jumpForce += heightIncrease;
+        Debug.Log("Jump height increased! Now at " + jumpForce + ".");
+    }
 }

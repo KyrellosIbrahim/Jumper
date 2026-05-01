@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: -3298090220375058173}
   m_Layer: 0
   m_Name: Jumper
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,8 +235,10 @@ MonoBehaviour:
   cam: {fileID: 0}
   gameOverPanel: {fileID: 0}
   scoreText: {fileID: 0}
+  gameOverScoreText: {fileID: 0}
   anim: {fileID: 0}
   isMoving: 0
+  jumpSound: {fileID: 0}
 --- !u!82 &-3298090220375058173
 AudioSource:
   m_ObjectHideFlags: 0
